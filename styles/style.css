@@ -1,0 +1,90 @@
+/* universal styles */
+*{
+    /* margin: 0px; */
+}
+/*shared styles*/
+.body{
+    font-family: "Merriweather", serif;
+}
+
+/* header section styles */
+header{
+    background-image: url('../images/Banner\ Image.png');
+    background-repeat: no-repeat;
+    max-width: 1320px;
+    border-radius: 16px;
+/* background: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%); */
+margin: 50px 140px 0px 140px;
+padding: 0px 244px 0px 244px;
+align-items: center;
+justify-content: center;
+text-align: center;
+}
+.banner-title{
+    padding-top: 177px;
+    color: #FFF;
+font-size: 32px;
+font-weight: 400;
+}
+.banner-heading{
+    max-width: 632px;
+    padding-bottom: 450px;
+    color: #FFF;
+font-size: 72px;
+font-weight: 900;
+}
+/* offer section styles */
+.offer{
+    text-align: center;
+}
+.offer-title{
+    color: #F00;
+font-family: Inter;
+font-size: 88px;
+font-weight: 700;
+}
+.offer-description{
+    color: #F00;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+}
+.offer-subheading{
+    color: #070211;
+    font-family: Inter;
+    font-size: 48px;
+    font-weight: 700;
+}
+/* welcome section styles */
+.welcome{
+    background-image: url('../images/Vectorrr.png');
+    background-repeat: no-repeat;
+    display: flex;
+    gap: 100px;
+    align-items: center;
+    justify-content: center;
+    margin: 120px 140px;
+    padding: 60px 126px;
+}
+.welcome-details{
+    
+    max-width: 1320px;
+    /* margin: 120px 140px; */
+}
+.welcome-title{
+    color: #FFF;
+font-size: 64px;
+font-weight: 900;
+margin-bottom: 24px;
+}
+.welcome-description{
+    color: rgba(255, 255, 255, 0.80);
+font-size: 18px;
+font-weight: 400;
+margin-bottom: 32px;
+}
+.simple-text{
+    color: #FFF;
+font-size: 20px;
+font-weight: 700;
+}
