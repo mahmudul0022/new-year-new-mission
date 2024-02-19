@@ -185,3 +185,70 @@ font-style: normal;
 font-weight: 900;
 line-height: normal;
 }
+/* portfolio section styles */
+.portfolio{
+    margin: 120px 140px;
+    text-align: left;
+}
+
+.portfolio-start-text{
+    color: #F00;
+font-size: 24px;
+font-weight: 500;
+}
+.portfolio-title{
+    color: #070211;
+font-size: 48px;
+font-weight: 900;
+}
+.portfolio-description{
+    color: rgba(7, 2, 17, 0.60);
+font-size: 20px;
+font-weight: 400;
+}
+.img-a{
+    margin-right: 24px;
+    margin-bottom: 24px;
+}
+.img-b{
+    margin-right: 24px;
+}
+/* newsletter section styles */
+.newsletter{
+    border-radius: 16px;
+background: rgba(255, 0, 0, 0.05);
+    max-width: 1320px;
+    text-align: center;
+    margin: 0 140px 120px 140px;
+    padding:80px 212px ;
+}
+.newsletter-title{
+    color: #070211;
+    font-size: 48px;
+    font-weight: 900
+}
+.newsletter-description{
+    color: rgba(7, 2, 17, 0.60);
+    font-size: 20px;
+    font-weight: 400;
+}
+.newsletter input{
+    border-radius: 50px;
+background: #FFF;
+padding: 25px 30px;
+}
+/* footer section styles */
+footer{
+    max-width: 1600px;
+    background: #070211;
+    padding: 120px 291px;
+}
+footer .text-divs{
+    display: flex;
+    justify-content: space-around;
+    color: #FFF;
+    font-weight: 500;
+}
+footer .social-div{
+    text-align: center;
+}
